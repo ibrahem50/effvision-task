@@ -221,7 +221,9 @@ body {
   background-color: var(--secondary-color);
   height: 93.07px;
   width: 93.07px;
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   outline: 3px solid var(--white);
 }
